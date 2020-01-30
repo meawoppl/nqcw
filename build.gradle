@@ -1,0 +1,44 @@
+plugins {
+    id "com.diffplug.gradle.spotless" version "3.23.0"
+    id "net.ltgt.errorprone" version "0.8.1"
+}
+
+apply plugin: 'idea'
+apply plugin: 'java'
+
+repositories {
+    mavenCentral()
+}
+
+sourceCompatibility = 1.11
+targetCompatibility = 1.11
+
+
+dependencies {
+    compile group: 'org.apache.commons', name: 'commons-collections4', version: '4.4'
+
+    compile group: 'com.google.guava', name: 'guava', version: '23.0'
+
+    // Test helpers
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+    testCompile group: 'org.assertj', name: 'assertj-core', version: '3.12.2'
+
+    errorprone("com.google.errorprone:error_prone_core:2.3.3")
+}
+
+
+spotless {
+    java {
+        target 'src/**/*.java'
+        googleJavaFormat('1.6')
+        removeUnusedImports()
+        replaceRegex 'Bug in google format javadoc: https://github.com/google/google-java-format/issues/254', '  \\* (<p>)+', '  * <p>'
+    }
+}
+
+// Display is mainly for CI
+test {
+    afterTest { desc, result ->
+        logger.quiet "Executed test ${desc.name} [${desc.className}] with result: ${result.resultType}"
+    }
+}
