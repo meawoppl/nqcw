@@ -19,11 +19,37 @@ public class ColinearSolverTest extends Assertions {
   public void testColinearSolver(){
     ColinearSolver solver = new ColinearSolver();
 
-    Set<Board> solutions = solver.allSoultionsForBoardOfSize(8);
+    Set<Board> solutions = solver.allSolutionsForBoardOfSize(8);
     solutions.forEach(board -> System.out.println(board + "\n"));
 
     System.out.println(solutions.size());
   }
 
+  @Test
+  public void testIsValidImpl(){
+    Board invalidConfig1 = Board.ofSize(8).adding(0, 0).adding(1, 2).adding(2, 4);
+    Board invalidConfig2 = Board.ofSize(8).adding(0, 0).adding(2, 1).adding(4, 2);
+    Board invalidConfig3 = Board.ofSize(8).adding(0, 0).adding(2, 4).adding(3, 6);
 
+    ColinearSolver solver = new ColinearSolver();
+    assertThat(solver.isBoardValid(invalidConfig1)).isFalse();
+    assertThat(solver.isBoardValid(invalidConfig2)).isFalse();
+    assertThat(solver.isBoardValid(invalidConfig3)).isFalse();
+
+    assertThat(solver.isBoardValid(BoardTest.KNOWN_4X4_SOLUTION)).isTrue();
+    assertThat(solver.isBoardValid(Board.ofSize(100))).isTrue();
+
+  }
+
+  @Test
+  public void testSolutionsSubset(){
+    // Solutions provided by this are a subset of solutions for the parent problem
+    for (int i = 3; i < 9; i++) {
+      Set<Board> solutionsParent = new TraditionalSolver().allSolutionsForBoardOfSize(i);
+      Set<Board> solutionsChild = new TraditionalSolver().allSolutionsForBoardOfSize(i);
+
+      solutionsChild.forEach(s->assertThat(solutionsParent).contains(s));
+    }
+
+  }
 }

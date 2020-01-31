@@ -8,7 +8,7 @@ import java.util.Set;
 public abstract class QueensSolver {
   abstract boolean isBoardValid(Board board);
 
-  public Set<Board> allSoultionsForBoardOfSize(int size){
+  public Set<Board> allSolutionsForBoardOfSize(int size){
     return solutionsForBoard(Board.ofSize(size));
   }
 

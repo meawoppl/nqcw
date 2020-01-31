@@ -35,4 +35,18 @@ public class BoardTest extends Assertions {
     assertThat(KNOWN_4X4_SOLUTION.unoccupiedCols()).isEmpty();
     assertThat(KNOWN_4X4_SOLUTION.unoccupiedRows()).isEmpty();
   }
+
+  @Test
+  public void testEquals(){
+    assertThat(Board.ofSize(3)).isEqualTo(Board.ofSize(3));
+    assertThat(Board.ofSize(3).adding(1, 1)).isEqualTo(Board.ofSize(3).adding(1,1));
+    assertThat(
+            Board.ofSize(3).adding(1, 2).adding(0, 0))
+        .isEqualTo(
+            Board.ofSize(3).adding(0, 0).adding(1, 2));
+
+    assertThat(Board.ofSize(3)).isNotEqualTo(Board.ofSize(4));
+    assertThat(Board.ofSize(3).adding(1, 1)).isNotEqualTo(Board.ofSize(4).adding(1, 1));
+  }
+
 }

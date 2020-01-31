@@ -25,7 +25,7 @@ public class EntryPoint {
       boardSize = Integer.parseInt(argList.get(0));
     }
 
-    Set<Board> solutions = solver.allSoultionsForBoardOfSize(boardSize);
+    Set<Board> solutions = solver.allSolutionsForBoardOfSize(boardSize);
     solutions.forEach(System.out::println);
 
     System.out.println(String.format("%d solutions found for board of size %d", solutions.size(), boardSize));

@@ -4,6 +4,7 @@ import com.google.common.base.Preconditions;
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.HashSet;
+import java.util.Objects;
 import java.util.Set;
 
 /** A basic representation of a chessboard which can contain queens */
@@ -29,12 +30,21 @@ public class Board {
     return new Board(size, new HashSet<>());
   }
 
+  /**
+   * Call to check for the presence of a queen at the specified position.
+   *
+   * @param position to query
+   * @return boolean presence
+   */
   public boolean hasQueenAt(Position position) {
     checkBounded(position);
 
     return positions.contains(position);
   }
 
+  /**
+   * Return true if this position is a valid coordinate within this chessboard.
+   */
   public boolean bounds(Position position) {
     return position.row >= 0
         && position.row < boardSize
@@ -132,5 +142,19 @@ public class Board {
     }
 
     return sb.toString();
+  }
+
+  @Override
+  public boolean equals(Object o) {
+    if (this == o) return true;
+    if (o == null || getClass() != o.getClass()) return false;
+    Board board = (Board) o;
+    return boardSize == board.boardSize &&
+            Objects.equals(positions, board.positions);
+  }
+
+  @Override
+  public int hashCode() {
+    return Objects.hash(boardSize, positions);
   }
 }
