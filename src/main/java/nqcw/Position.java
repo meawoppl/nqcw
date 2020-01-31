@@ -1,8 +1,10 @@
 package nqcw;
 
+import com.google.common.collect.ComparisonChain;
 import java.util.Objects;
 
-class Position {
+/** Utility class to represent a board position. */
+public class Position implements Comparable<Position> {
   public final int row;
   public final int col;
 
@@ -16,6 +18,14 @@ class Position {
   }
 
   @Override
+  public int compareTo(Position position) {
+    return ComparisonChain.start()
+        .compare(this.row, position.row)
+        .compare(this.col, position.col)
+        .result();
+  }
+
+  @Override
   public boolean equals(Object o) {
     if (this == o) return true;
     if (o == null || getClass() != o.getClass()) return false;
@@ -26,5 +36,10 @@ class Position {
   @Override
   public int hashCode() {
     return Objects.hash(row, col);
+  }
+
+  @Override
+  public String toString() {
+    return String.format("(%d, %d)", row, col);
   }
 }

@@ -5,7 +5,8 @@ import org.junit.Test;
 
 public class BoardTest extends Assertions {
 
-  public static Board KNOWN_4X4_SOLUTION = Board.ofSize(4).adding(0, 2).adding(1, 0).adding(2, 3).adding(3, 1);
+  public static Board KNOWN_4X4_SOLUTION =
+      Board.ofSize(4).adding(0, 2).adding(1, 0).adding(2, 3).adding(3, 1);
 
   @Test
   public void testFormatter() {

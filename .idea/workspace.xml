@@ -2,14 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6ff2e38a-9a34-46f2-936c-8e11fcd107da" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/nqcw/Board.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/nqcw/NQueensTraditional.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/nqcw/BoardTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/nqcw/NQueensTraditionalTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/meawoppl.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/nqcw/ColinearSolver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/nqcw/EntryPoint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/nqcw/QueensSolver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/nqcw/TraditionalSolver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/nqcw/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/nqcw/ColinearSolverTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/nqcw/EntryPointTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/nqcw/PositionTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/nqcw/BoardPosition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nqcw/Position.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/nqcw/QueenBoard.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/nqcw/QueenBoardTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nqcw/Board.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nqcw/Board.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nqcw/NQueensTraditional.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nqcw/Position.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nqcw/Position.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/nqcw/BoardTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/nqcw/BoardTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/nqcw/NQueensTraditionalTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/nqcw/TraditionalSolverTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -56,50 +64,97 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/build.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="29" column="36" selection-start-line="29" selection-start-column="36" selection-end-line="29" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/nqcw/package-info.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="432">
+              <caret line="31" column="2" selection-start-line="31" selection-start-column="2" selection-end-line="31" selection-end-column="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/nqcw/Board.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="356">
-              <caret line="70" column="29" selection-start-line="70" selection-start-column="29" selection-end-line="70" selection-end-column="29" />
+            <state relative-caret-position="342">
+              <caret line="36" selection-start-line="36" selection-end-line="36" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#778#779#0" expanded="true" />
-                <element signature="e#832#833#0" expanded="true" />
-                <element signature="e#1480#1481#0" expanded="true" />
-                <element signature="e#1531#1532#0" expanded="true" />
-                <element signature="e#1989#1990#0" expanded="true" />
-                <element signature="e#2015#2016#0" expanded="true" />
-                <element signature="e#1999#2000#0" expanded="true" />
+                <element signature="e#804#805#0" expanded="true" />
+                <element signature="e#853#854#0" expanded="true" />
+                <element signature="e#2140#2141#0" expanded="true" />
+                <element signature="e#3012#3013#0" expanded="true" />
+                <element signature="e#3069#3070#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/nqcw/NQueensTraditional.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/nqcw/ColinearSolver.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="21" column="79" selection-start-line="21" selection-start-column="79" selection-end-line="21" selection-end-column="79" />
+            <state relative-caret-position="684">
+              <caret line="36" column="48" selection-start-line="36" selection-start-column="48" selection-end-line="36" selection-end-column="48" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#201#202#0" expanded="true" />
+                <element signature="e#233#234#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/nqcw/NQueensTraditionalTest.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/nqcw/EntryPoint.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="413">
-              <caret line="32" selection-start-line="32" selection-end-line="32" />
+            <state relative-caret-position="342">
+              <caret line="19" column="56" lean-forward="true" selection-start-line="19" selection-start-column="56" selection-end-line="19" selection-end-column="56" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/nqcw/BoardTest.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/nqcw/EntryPointTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="451">
-              <caret line="36" column="1" selection-start-line="36" selection-start-column="1" selection-end-line="36" selection-end-column="1" />
+            <state>
+              <caret column="13" lean-forward="true" selection-start-column="13" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/nqcw/ColinearSolverTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="228">
+              <caret line="12" column="52" selection-start-line="12" selection-start-column="52" selection-end-line="12" selection-end-column="52" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/nqcw/QueensSolver.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="95">
+              <caret line="11" column="49" selection-start-line="11" selection-start-column="49" selection-end-line="11" selection-end-column="49" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#292#293#0" expanded="true" />
+                <element signature="e#320#321#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -107,8 +162,29 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/nqcw/Position.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="14" column="11" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
+            <state relative-caret-position="147">
+              <caret line="22" selection-start-line="22" selection-end-line="22" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#379#380#0" expanded="true" />
+                <element signature="e#418#419#0" expanded="true" />
+                <element signature="e#569#570#0" expanded="true" />
+                <element signature="e#608#609#0" expanded="true" />
+                <element signature="e#995#996#0" expanded="true" />
+                <element signature="e#1036#1037#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/nqcw/PositionTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="19">
+              <caret line="1" selection-start-line="1" selection-end-line="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -118,10 +194,16 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="package-info" />
         <option value="Class" />
         <option value="JUnit4 Test Class" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>unoccupiedRows</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -132,18 +214,28 @@
         <option value="$PROJECT_DIR$/src/main/java/nqcw/Chessboard.java" />
         <option value="$PROJECT_DIR$/src/main/java/nqcw/BoardPosition.java" />
         <option value="$PROJECT_DIR$/src/test/nqcw/QueenBoardTest.java" />
-        <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/src/test/java/nqcw/QueenBoardTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/nqcw/QueenBoard.java" />
-        <option value="$PROJECT_DIR$/src/main/java/nqcw/Board.java" />
-        <option value="$PROJECT_DIR$/src/main/java/nqcw/NQueensTraditional.java" />
         <option value="$PROJECT_DIR$/src/test/java/nqcw/NQueensTraditionalTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/nqcw/NQueensTraditional.java" />
+        <option value="$PROJECT_DIR$/src/test/java/nqcw/TraditionalSolverTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/nqcw/TraditionalSolver.java" />
+        <option value="$PROJECT_DIR$/src/main/java/nqcw/Board.java" />
+        <option value="$PROJECT_DIR$/src/main/java/nqcw/Position.java" />
+        <option value="$PROJECT_DIR$/src/test/java/nqcw/PositionTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/nqcw/package-info.java" />
+        <option value="$PROJECT_DIR$/src/main/java/nqcw/QueensSolver.java" />
+        <option value="$PROJECT_DIR$/src/test/java/nqcw/ColinearSolverTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/nqcw/ColinearSolver.java" />
+        <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/src/test/java/nqcw/EntryPointTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/nqcw/EntryPoint.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="449" />
-    <option name="y" value="72" />
+    <option name="x" value="293" />
+    <option name="y" value="88" />
     <option name="width" value="1389" />
     <option name="height" value="789" />
   </component>
@@ -185,27 +277,6 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="nqcw" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="nqcw" type="b2602c69:ProjectViewProjectNode" />
-              <item name="nqcw" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="nqcw" type="b2602c69:ProjectViewProjectNode" />
-              <item name="nqcw" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="nqcw" type="b2602c69:ProjectViewProjectNode" />
-              <item name="nqcw" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="nqcw" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -226,6 +297,9 @@
     <key name="CreateTestDialog.RecentsKey">
       <recent name="nqcw" />
     </key>
+    <key name="MoveMembersDialog.RECENTS_KEY">
+      <recent name="nqcw.QueensSolver" />
+    </key>
     <key name="MoveInnerDialog.RECENTS_KEY">
       <recent name="nqcw" />
     </key>
@@ -245,19 +319,19 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.NQueensTraditionalTest">
+  <component name="RunManager" selected="Gradle.EntryPointTest">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NQueensTraditionalTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="ColinearSolverTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;nqcw.NQueensTraditionalTest&quot;" />
+        <option name="scriptParameters" value="--tests &quot;nqcw.ColinearSolverTest&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -272,12 +346,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="QueenBoardTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="ColinearSolverTest.testColinearSolver" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;nqcw.QueenBoardTest&quot;" />
+        <option name="scriptParameters" value="--tests &quot;nqcw.ColinearSolverTest.testColinearSolver&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -292,42 +366,64 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="nqcw [spotlessApply]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="ColinearSolverTest.testGCD" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
+        <option name="scriptParameters" value="--tests &quot;nqcw.ColinearSolverTest.testGCD&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
         <option name="taskNames">
           <list>
-            <option value="spotlessApply" />
+            <option value=":cleanTest" />
+            <option value=":test" />
           </list>
         </option>
-        <option name="vmOptions" value="" />
+        <option name="vmOptions" />
       </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="nqcw [test]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="EntryPointTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
+        <option name="scriptParameters" value="--tests &quot;nqcw.EntryPointTest&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
         <option name="taskNames">
           <list>
-            <option value="test" />
+            <option value=":cleanTest" />
+            <option value=":test" />
           </list>
         </option>
-        <option name="vmOptions" value="" />
+        <option name="vmOptions" />
       </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="PositionTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;nqcw.PositionTest&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
@@ -348,10 +444,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.NQueensTraditionalTest" />
-        <item itemvalue="Gradle.QueenBoardTest" />
-        <item itemvalue="Gradle.nqcw [spotlessApply]" />
-        <item itemvalue="Gradle.nqcw [test]" />
+        <item itemvalue="Gradle.EntryPointTest" />
+        <item itemvalue="Gradle.ColinearSolverTest.testColinearSolver" />
+        <item itemvalue="Gradle.ColinearSolverTest.testGCD" />
+        <item itemvalue="Gradle.ColinearSolverTest" />
+        <item itemvalue="Gradle.PositionTest" />
       </list>
     </recent_temporary>
   </component>
@@ -369,35 +466,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="QueenBoardTest - 2020.01.29 at 23h 55m 21s.xml">
-      <configuration name="QueenBoardTest" configurationId="GradleRunConfiguration" />
+    <history-entry file="ColinearSolverTest_testColinearSolver - 2020.01.31 at 12h 23m 20s.xml">
+      <configuration name="ColinearSolverTest.testColinearSolver" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="QueenBoardTest - 2020.01.29 at 23h 55m 51s.xml">
-      <configuration name="QueenBoardTest" configurationId="GradleRunConfiguration" />
+    <history-entry file="ColinearSolverTest_testColinearSolver - 2020.01.31 at 12h 25m 54s.xml">
+      <configuration name="ColinearSolverTest.testColinearSolver" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="QueenBoardTest - 2020.01.30 at 00h 57m 29s.xml">
-      <configuration name="QueenBoardTest" configurationId="GradleRunConfiguration" />
+    <history-entry file="ColinearSolverTest_testGCD - 2020.01.31 at 12h 26m 02s.xml">
+      <configuration name="ColinearSolverTest.testGCD" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="NQueensTraditionalTest - 2020.01.30 at 01h 03m 19s.xml">
-      <configuration name="NQueensTraditionalTest" configurationId="GradleRunConfiguration" />
+    <history-entry file="ColinearSolverTest_testGCD - 2020.01.31 at 12h 31m 35s.xml">
+      <configuration name="ColinearSolverTest.testGCD" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="NQueensTraditionalTest - 2020.01.30 at 01h 04m 05s.xml">
-      <configuration name="NQueensTraditionalTest" configurationId="GradleRunConfiguration" />
+    <history-entry file="ColinearSolverTest_testColinearSolver - 2020.01.31 at 12h 31m 43s.xml">
+      <configuration name="ColinearSolverTest.testColinearSolver" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="NQueensTraditionalTest - 2020.01.30 at 01h 05m 08s.xml">
-      <configuration name="NQueensTraditionalTest" configurationId="GradleRunConfiguration" />
+    <history-entry file="ColinearSolverTest_testColinearSolver - 2020.01.31 at 13h 17m 28s.xml">
+      <configuration name="ColinearSolverTest.testColinearSolver" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="NQueensTraditionalTest - 2020.01.30 at 01h 05m 20s.xml">
-      <configuration name="NQueensTraditionalTest" configurationId="GradleRunConfiguration" />
+    <history-entry file="EntryPointTest - 2020.01.31 at 13h 27m 39s.xml">
+      <configuration name="EntryPointTest" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="NQueensTraditionalTest - 2020.01.30 at 01h 10m 52s.xml">
-      <configuration name="NQueensTraditionalTest" configurationId="GradleRunConfiguration" />
+    <history-entry file="EntryPointTest - 2020.01.31 at 13h 30m 09s.xml">
+      <configuration name="EntryPointTest" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="NQueensTraditionalTest - 2020.01.30 at 01h 18m 46s.xml">
-      <configuration name="NQueensTraditionalTest" configurationId="GradleRunConfiguration" />
+    <history-entry file="EntryPointTest - 2020.01.31 at 13h 30m 22s.xml">
+      <configuration name="EntryPointTest" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="NQueensTraditionalTest - 2020.01.30 at 01h 20m 48s.xml">
-      <configuration name="NQueensTraditionalTest" configurationId="GradleRunConfiguration" />
+    <history-entry file="EntryPointTest - 2020.01.31 at 13h 30m 38s.xml">
+      <configuration name="EntryPointTest" configurationId="GradleRunConfiguration" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -414,7 +511,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32983193" />
       <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32983193" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39915967" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -433,6 +530,36 @@
       <window_info anchor="right" id="Capture Analysis" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
     </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4984326" visible="true" weight="0.255119" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" sideWeight="0.5015674" side_tool="true" weight="0.255119" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32983193" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32983193" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Build" order="10" weight="0.32983193" />
+      <window_info anchor="bottom" id="Messages" order="11" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven" order="4" />
+      <window_info anchor="right" id="Gradle" order="5" weight="0.32982844" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+    </layout-to-restore>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/test/nqcw/QueenBoardTest.java">
@@ -447,31 +574,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/nqcw/Position.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="14" column="11" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/nqcw/BoardTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="451">
-          <caret line="36" column="1" selection-start-line="36" selection-start-column="1" selection-end-line="36" selection-end-column="1" />
+        <state relative-caret-position="304">
+          <caret line="17" column="41" lean-forward="true" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/nqcw/NQueensTraditional.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/nqcw/TraditionalSolver.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="21" column="79" selection-start-line="21" selection-start-column="79" selection-end-line="21" selection-end-column="79" />
+        <state relative-caret-position="19">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/nqcw/TraditionalSolverTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="798">
+          <caret line="42" column="39" selection-start-line="42" selection-start-column="39" selection-end-line="42" selection-end-column="39" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -480,25 +600,107 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/nqcw/Board.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="356">
-          <caret line="70" column="29" selection-start-line="70" selection-start-column="29" selection-end-line="70" selection-end-column="29" />
+        <state relative-caret-position="342">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#778#779#0" expanded="true" />
-            <element signature="e#832#833#0" expanded="true" />
-            <element signature="e#1480#1481#0" expanded="true" />
-            <element signature="e#1531#1532#0" expanded="true" />
-            <element signature="e#1989#1990#0" expanded="true" />
-            <element signature="e#2015#2016#0" expanded="true" />
-            <element signature="e#1999#2000#0" expanded="true" />
+            <element signature="e#804#805#0" expanded="true" />
+            <element signature="e#853#854#0" expanded="true" />
+            <element signature="e#2140#2141#0" expanded="true" />
+            <element signature="e#3012#3013#0" expanded="true" />
+            <element signature="e#3069#3070#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/nqcw/NQueensTraditionalTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/nqcw/Position.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="413">
-          <caret line="32" selection-start-line="32" selection-end-line="32" />
+        <state relative-caret-position="147">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#379#380#0" expanded="true" />
+            <element signature="e#418#419#0" expanded="true" />
+            <element signature="e#569#570#0" expanded="true" />
+            <element signature="e#608#609#0" expanded="true" />
+            <element signature="e#995#996#0" expanded="true" />
+            <element signature="e#1036#1037#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/nqcw/PositionTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/nqcw/package-info.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="31" column="2" selection-start-line="31" selection-start-column="2" selection-end-line="31" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/nqcw/QueensSolver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="11" column="49" selection-start-line="11" selection-start-column="49" selection-end-line="11" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#292#293#0" expanded="true" />
+            <element signature="e#320#321#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/nqcw/ColinearSolverTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="52" selection-start-line="12" selection-start-column="52" selection-end-line="12" selection-end-column="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="29" column="36" selection-start-line="29" selection-start-column="36" selection-end-line="29" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/nqcw/ColinearSolver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="684">
+          <caret line="36" column="48" selection-start-line="36" selection-start-column="48" selection-end-line="36" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#201#202#0" expanded="true" />
+            <element signature="e#233#234#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/nqcw/EntryPointTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="13" lean-forward="true" selection-start-column="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/nqcw/EntryPoint.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="19" column="56" lean-forward="true" selection-start-line="19" selection-start-column="56" selection-end-line="19" selection-end-column="56" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -507,6 +709,7 @@
     <option value="$PROJECT_DIR$" />
     <option value="spotlessApply" />
     <option value="test" />
+    <option value="javadoc" />
   </component>
   <component name="masterDetails">
     <states>

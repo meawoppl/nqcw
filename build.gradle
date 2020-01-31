@@ -1,6 +1,7 @@
 plugins {
     id "com.diffplug.gradle.spotless" version "3.23.0"
     id "net.ltgt.errorprone" version "0.8.1"
+    id "application"
 }
 
 apply plugin: 'idea'
@@ -16,7 +17,6 @@ targetCompatibility = 1.11
 
 dependencies {
     compile group: 'org.apache.commons', name: 'commons-collections4', version: '4.4'
-
     compile group: 'com.google.guava', name: 'guava', version: '23.0'
 
     // Test helpers
@@ -26,6 +26,9 @@ dependencies {
     errorprone("com.google.errorprone:error_prone_core:2.3.3")
 }
 
+application {
+    mainClassName = 'nqcw.EntryPoint'
+}
 
 spotless {
     java {
