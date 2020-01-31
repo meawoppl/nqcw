@@ -18,3 +18,13 @@ To run the traditional N-Queens, add the -t flag:
 ./gradlew run --args="10 -t"
 ```
 
+
+## Docs and Implementation Notes
+```bash
+./gradlew javadoc && google-chrome build/docs/javadoc/index.html
+```
+
+## Tests
+```bash
+./gradlew test
+```

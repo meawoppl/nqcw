@@ -5,7 +5,16 @@ import com.google.common.collect.Sets;
 import java.util.OptionalInt;
 import java.util.Set;
 
+/**
+ * Abstract base implementation for the Queens Problem
+ */
 public abstract class QueensSolver {
+  /**
+   * Returns true if the board meets the constraint rules of the problem.
+   *
+   * @param board configuration to consider
+   * @return boolean validity
+   */
   abstract boolean isBoardValid(Board board);
 
   public Set<Board> allSolutionsForBoardOfSize(int size) {

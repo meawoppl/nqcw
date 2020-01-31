@@ -4,6 +4,9 @@ import com.google.common.collect.Lists;
 import java.util.List;
 import java.util.Set;
 
+/**
+ * The entry point `main()` for the problem.
+ */
 public class EntryPoint {
   public static void main(String[] args) {
     List<String> argList = Lists.newArrayList(args);

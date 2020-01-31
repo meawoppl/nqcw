@@ -3,6 +3,9 @@ package nqcw;
 import com.google.common.annotations.VisibleForTesting;
 import java.util.TreeSet;
 
+/**
+ * `QueensSolver` implementation that imposes the additional colinearity constraint.
+ */
 public class ColinearSolver extends TraditionalSolver {
 
   /** Compute the greatest common denominator between a and b */
