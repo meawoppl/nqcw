@@ -17,3 +17,4 @@ To run the traditional N-Queens, add the -t flag:
 ```bash
 ./gradlew run --args="10 -t"
 ```
+
