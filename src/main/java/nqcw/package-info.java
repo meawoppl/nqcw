@@ -30,10 +30,8 @@
  * abstracting the descent algorithm into a parent {@code QueensSolver}, then implementing the
  * colinearity restriction.
  *
- * <p> This was a tricky problem!  My first solution included a set of invalid configurations,
- * I identified that the step size between queens may have been such that it stepped past.
- * After fixing that (introducing the gcd and associated calls), things look good!
- *
- *
+ * <p>This was a tricky problem! My first solution included a set of invalid configurations, I
+ * identified that the step size between queens may have been such that it stepped past. After
+ * fixing that (introducing the gcd and associated calls), things look good!
  */
 package nqcw;

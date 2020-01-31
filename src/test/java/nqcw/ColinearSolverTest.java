@@ -1,13 +1,12 @@
 package nqcw;
 
+import java.util.Set;
 import org.assertj.core.api.Assertions;
 import org.junit.Test;
 
-import java.util.Set;
-
 public class ColinearSolverTest extends Assertions {
   @Test
-  public void testGCD(){
+  public void testGCD() {
     assertThat(ColinearSolver.gcd(1, 1)).isEqualTo(1);
     assertThat(ColinearSolver.gcd(4, 2)).isEqualTo(2);
     assertThat(ColinearSolver.gcd(2, 3)).isEqualTo(1);
@@ -16,7 +15,7 @@ public class ColinearSolverTest extends Assertions {
   }
 
   @Test
-  public void testColinearSolver(){
+  public void testColinearSolver() {
     ColinearSolver solver = new ColinearSolver();
 
     Set<Board> solutions = solver.allSolutionsForBoardOfSize(8);
@@ -26,7 +25,7 @@ public class ColinearSolverTest extends Assertions {
   }
 
   @Test
-  public void testIsValidImpl(){
+  public void testIsValidImpl() {
     Board invalidConfig1 = Board.ofSize(8).adding(0, 0).adding(1, 2).adding(2, 4);
     Board invalidConfig2 = Board.ofSize(8).adding(0, 0).adding(2, 1).adding(4, 2);
     Board invalidConfig3 = Board.ofSize(8).adding(0, 0).adding(2, 4).adding(3, 6);
@@ -38,18 +37,16 @@ public class ColinearSolverTest extends Assertions {
 
     assertThat(solver.isBoardValid(BoardTest.KNOWN_4X4_SOLUTION)).isTrue();
     assertThat(solver.isBoardValid(Board.ofSize(100))).isTrue();
-
   }
 
   @Test
-  public void testSolutionsSubset(){
+  public void testSolutionsSubset() {
     // Solutions provided by this are a subset of solutions for the parent problem
     for (int i = 3; i < 9; i++) {
       Set<Board> solutionsParent = new TraditionalSolver().allSolutionsForBoardOfSize(i);
       Set<Board> solutionsChild = new TraditionalSolver().allSolutionsForBoardOfSize(i);
 
-      solutionsChild.forEach(s->assertThat(solutionsParent).contains(s));
+      solutionsChild.forEach(s -> assertThat(solutionsParent).contains(s));
     }
-
   }
 }

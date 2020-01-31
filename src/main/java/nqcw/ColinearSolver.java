@@ -1,16 +1,13 @@
 package nqcw;
 
 import com.google.common.annotations.VisibleForTesting;
-
 import java.util.TreeSet;
 
 public class ColinearSolver extends TraditionalSolver {
 
-  /**
-   * Compute the greatest common denominator between a and b
-   */
+  /** Compute the greatest common denominator between a and b */
   @VisibleForTesting
-  protected static int gcd(int a, int b){
+  protected static int gcd(int a, int b) {
     return b == 0 ? a : gcd(b, a % b);
   }
 
@@ -36,11 +33,10 @@ public class ColinearSolver extends TraditionalSolver {
 
         // Search along that axis until we reach OOB
         Position next = p2;
-        while(true) {
+        while (true) {
           next = Position.at(next.row + rowStep, next.col + colStep);
 
-          if(!board.bounds(next))
-            break;
+          if (!board.bounds(next)) break;
           if (board.hasQueenAt(next)) return false;
         }
       }

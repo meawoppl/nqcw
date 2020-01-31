@@ -42,9 +42,7 @@ public class Board {
     return positions.contains(position);
   }
 
-  /**
-   * Return true if this position is a valid coordinate within this chessboard.
-   */
+  /** Return true if this position is a valid coordinate within this chessboard. */
   public boolean bounds(Position position) {
     return position.row >= 0
         && position.row < boardSize
@@ -149,8 +147,7 @@ public class Board {
     if (this == o) return true;
     if (o == null || getClass() != o.getClass()) return false;
     Board board = (Board) o;
-    return boardSize == board.boardSize &&
-            Objects.equals(positions, board.positions);
+    return boardSize == board.boardSize && Objects.equals(positions, board.positions);
   }
 
   @Override

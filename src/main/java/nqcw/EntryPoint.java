@@ -1,7 +1,6 @@
 package nqcw;
 
 import com.google.common.collect.Lists;
-
 import java.util.List;
 import java.util.Set;
 
@@ -11,7 +10,7 @@ public class EntryPoint {
 
     QueensSolver solver;
 
-    if(argList.contains("-t")){
+    if (argList.contains("-t")) {
       argList.remove("-t");
       solver = new TraditionalSolver();
       System.out.println("Solving traditional N-Queens problem");
@@ -21,13 +20,14 @@ public class EntryPoint {
     }
 
     int boardSize = 8;
-    if(argList.size() == 1) {
+    if (argList.size() == 1) {
       boardSize = Integer.parseInt(argList.get(0));
     }
 
     Set<Board> solutions = solver.allSolutionsForBoardOfSize(boardSize);
     solutions.forEach(System.out::println);
 
-    System.out.println(String.format("%d solutions found for board of size %d", solutions.size(), boardSize));
+    System.out.println(
+        String.format("%d solutions found for board of size %d", solutions.size(), boardSize));
   }
 }
